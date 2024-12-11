@@ -1,3 +1,5 @@
+/* === General Styles === */
+/* General styles for the body element */
 body {
     align-items: center;
     background-color: hsl(212, 45%, 89%);
@@ -10,6 +12,8 @@ body {
     width: 100%;
 }
 
+/* === Card Component === */
+/* Styles for the main container of the card */
 .card {
     background-color: white;
     border-radius: 15px;
@@ -20,17 +24,22 @@ body {
     width: 375px;
 }
 
+/* === Image Styles === */
+/* Styles for the image inside the card */
 img {
     border-radius: 15px;
     height: 375px;
     width: 375px;
 }
 
+/* === Text Styles === */
+/* Styles for the main heading */
 h1 {
     color: hsl(218, 44%, 22%);
     font-weight: 700;
 }
-  
+
+/* Styles for the paragraphs */
 p {
     color: hsl(220, 15%, 55%);
     font-size: 15px;
@@ -38,13 +47,17 @@ p {
     padding: 15px ;
     line-height: 1.5;
 }
-  
+
+
+/* === Attribution Styles === */
+/* Styles for the attribution section */
 .attribution {
     font-size: 11px;
     text-align: center;
     padding: 20px 0 0 0;
 }
-  
+
+/* Styles for the links inside the attribution */
 .attribution a {
     color: hsl(228, 45%, 44%);
     text-decoration: none;
